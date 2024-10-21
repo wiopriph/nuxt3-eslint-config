@@ -7,7 +7,7 @@
 1. Add this package to your devDependencies
 
 ```bash
-$ npm i -D https://github.com/wiopriph/nuxt3-eslint-config
+npm i -D https://github.com/wiopriph/nuxt3-eslint-config
 ```
 
 2. Create a `.eslintrc.js` file
