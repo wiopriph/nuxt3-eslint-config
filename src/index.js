@@ -64,7 +64,7 @@ module.exports = {
 
     // @stylistic/js
     '@stylistic/js/quotes': ['error', 'single'],
-    '@stylistic/js/indent': ['error', 2],
+    '@stylistic/js/indent': ['error', 2, { 'SwitchCase': 1 }],
     '@stylistic/js/newline-per-chained-call': ['error', { ignoreChainWithDepth: 2 }],
     '@stylistic/js/operator-linebreak': ['error', 'after'],
     '@stylistic/js/padding-line-between-statements': [
@@ -80,7 +80,7 @@ module.exports = {
 
     // @stylistic/ts
     '@stylistic/ts/quotes': ['error', 'single'],
-    '@stylistic/ts/indent': ['error', 2],
+    '@stylistic/ts/indent': ['error', 2, { 'SwitchCase': 1 }],
     '@stylistic/ts/padding-line-between-statements': [
       'error',
       { blankLine: 'always', prev: '*', next: 'return' },
